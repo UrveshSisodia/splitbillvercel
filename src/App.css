@@ -1,0 +1,248 @@
+* {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+button {
+
+  padding: 1em 5em;
+  border: none;
+  border-radius: 9px;
+  background-color: rgb(92, 233, 120);
+  color: rgb(239, 241, 243);
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #c2c7ce;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+
+}
+
+.input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 3rem;
+  gap: 20px;
+  text-align: center;
+}
+
+.cardTitle {
+  background-color: #4f46e5;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+
+}
+
+.cardTitle_text {
+  font-size: 1rem;
+
+  font-weight: 800;
+
+}
+
+.cardSubtitle {
+  background-color: #e0e7ff;
+
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: rgb(14, 7, 145);
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+.cardSubtitle1 {
+  background-color: #061238;
+
+  width: 230px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: rgb(242, 242, 246);
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+.cardSubtitle .label {
+  font-size: 0.76rem;
+  opacity: 0.8;
+}
+
+.cardSubtitle .value {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cardSubtitle1 .label {
+  color: aquamarine;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.cardSubtitle1 .label1 {
+  font-size: 0.7rem;
+  opacity: 0.8;
+
+}
+
+.line {
+
+  background-color: #374151;
+  border: none;
+  padding: 0.05rem;
+
+}
+
+.cardSubtitle1 .value {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.scroll_container {
+  width: 100%;
+  max-height: 150px;
+  overflow-y: scroll;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+:placeholder-shown {
+  color: #9ca3af;
+  font-size: 0.9rem;
+
+}
+
+.list_item {
+  background: #f3f4f6;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.remove_btn {
+  background: #fee2e2;
+
+  color: #ef4444;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  font-size: 1.4rem;
+  
+}
+
+.share_btn {
+  background: #290eb3;
+
+  color: #f7f9f7;
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+
+}
+
+.input_row {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.input_row input{
+  
+  font-size: 0.86rem;
+}
+
+.mainuserIdinput {
+  background-color: #f0fdf4;
+  border: 1px solid #166534a0;
+
+  border-radius: 8px;
+  padding: 10px 15px;
+  text-align: left;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mainuserIdinput .label-text {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.mainuserIdinput input {
+  width: 95%;
+  padding: 7px;
+  border: 1px solid #bbf7d0;
+  background-color: #f0fdf4;
+  border-radius: 0px;
+  border-bottom: 1px solid #25904e;
+  font-size: 0.83rem;
+  
+}
+
+.add_btn {
+  width: 50px;
+  font-size: 1.5rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
