@@ -31,9 +31,9 @@ const connectToDatabase = async () => {
     try {
         const uri = "mongodb+srv://urveshsisodia123_db_user:wPCouKHK9f3uWIVA@cluster0.gwd1sxa.mongodb.net/?appName=Cluster0";
         await mongoose.connect(uri);
-        console.log("✅ Database Connected");
+        console.log(" Database Connected");
     } catch (err) {
-        console.error("❌ Database Error:", err);
+        console.error(" Database Error:", err);
         throw err;
     }
 };
