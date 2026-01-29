@@ -270,7 +270,7 @@ function App() {
             < button type='button' onClick={handleAmountInput}  >Next</button >
           }
           {step === 2 &&
-            < button type='button' onClick={calculateSplit}>Next</button >
+            < button type='button' onClick={calculateSplit}>Spilt</button >
           }
 
           {
