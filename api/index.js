@@ -29,9 +29,14 @@
         if (mongoose.connection.readyState >= 1) {
             return;
         }
-        try {
-            await mongoose.connect('mongodb+srv://urveshsisodia123_db_user:wPCouKHK9f3uWIVA@cluster0.gwd1sxa.mongodb.net/?appName=Cluster0')
-            console.log("Database Connected");
+      try {
+       
+        if (!process.env.MONGODB_URI) {
+            throw new Error("MONGODB_URI is missing in Environment Variables");
+        }
+        
+        await mongoose.connect(process.env.MONGODB_URI);
+        console.log("Database Connected");
         } catch (err) {
             console.error("Database Error:", err);
             throw err;
