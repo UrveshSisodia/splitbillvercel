@@ -1,6 +1,9 @@
     import express from 'express';
     import cors from 'cors';
     import mongoose from 'mongoose';
+import dotenv from 'dotenv'; // 1. Import it
+
+dotenv.config();
 
     const app = express();
 
@@ -35,7 +38,7 @@
             throw new Error("MONGODB_URI is missing in Environment Variables");
         }
         
-        await mongoose.connect(process.env.MONGODB_URI);
+        await mongoose.connect(process.env.MONGODB_URl);
         console.log("Database Connected");
         } catch (err) {
             console.error("Database Error:", err);
