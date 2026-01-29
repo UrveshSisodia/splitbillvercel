@@ -34,8 +34,8 @@ dotenv.config();
         }
       try {
        
-        if (!process.env.MONGODB_URI) {
-            throw new Error("MONGODB_URI is missing in Environment Variables");
+        if (!process.env.MONGODB_URL) {
+            throw new Error("MONGODB_URL is missing in Environment Variables");
         }
         
         await mongoose.connect(process.env.MONGODB_URl);
